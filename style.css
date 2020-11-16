@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #EBF3FB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+#container{
+  max-width: 50vw;
+}
+
+#container #head{
+  background: #24245c;
+  color: #ebf3fb;
+  padding: 4rem 3rem 2rem;
+  border-radius: 0.7rem 0.7rem 0 0;
+  text-align: center;
+}
+
+#container #head2{
+  background: white;
+  padding: 2rem 5.5rem;
+  font-size: 1.0rem;
+}
+
+#container #head2 p{
+  padding-top: 1rem;
+}
+
+#container #head2 form input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 15rem;
+  padding-bottom: 0.5rem;
+}
+
+#container select{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 15rem;
+  padding-bottom: 1rem;
+}
+
+
+#container #sub{
+display: flex;
+justify-content: center;
+padding: 2rem;}
+
+
+#container #sub button{
+  border: none;
+  border-radius: 25px;
+  background-color: #24245c;
+  width: 10rem;
+  padding: 1rem;
+  color: white;
+}
+    
+
+
