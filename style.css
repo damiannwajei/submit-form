@@ -41,7 +41,11 @@ body{
   border-right: none;
   border-left: none;
   width: 15rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+  display: block;
+  margin-bottom: 1rem;
 }
 
 #container select{
@@ -49,14 +53,17 @@ body{
   border-right: none;
   border-left: none;
   width: 15rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  outline: none;
+  display: block;
 }
 
 
 #container #sub{
 display: flex;
 justify-content: center;
-padding: 2rem;}
+padding: 2rem;
+}
 
 
 #container #sub button{
@@ -66,7 +73,13 @@ padding: 2rem;}
   width: 10rem;
   padding: 1rem;
   color: white;
+  outline: none;
 }
-    
+
+#container #sub button:hover{
+  background: white;
+  color: #24245c;
+  border: 2px solid;
+}
 
 

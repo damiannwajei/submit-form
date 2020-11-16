@@ -11,20 +11,30 @@
     <section id="head">
       <h1>Submit a tool</h1>
     </section>
-
-   <section id="head2">
-     <form action="">
-       <P>Name</P>
-    <input type="text">
-    <p>Link to resource</p>
-    <input type="url">
-    <p>Category</p>
-    </form>
-    <select name="select" id=""></select>
-
-     <div id="sub">
-    <button type="submit">Submit</button>
-  </section>
+    <section id="head2">
+      <form action="">
+        <div class="form-control">
+          <label for="Name">Name</label>
+          <input id="Name" type="text">
+        </div>
+        <div>
+          <label for="Link to resource">Link to resource</label>
+          <input id="Link to resource" type="url">
+        </div>
+        <div>
+          <label for="Category">Category</label>
+          <select name="select" id="">
+            <option value="">Choose a category</option>
+            <option value="">Gender</option>
+            <option value="">Age</option>
+            <option value="">state</option>
+          </select>
+        </div>
+        <div id="sub">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
   </div>
 </body>
 </html>
